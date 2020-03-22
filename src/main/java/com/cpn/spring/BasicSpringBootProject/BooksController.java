@@ -1,9 +1,8 @@
-package com.cpn.spring.RestController;
+package com.cpn.spring.BasicSpringBootProject;
 
 import java.util.Arrays;
 import java.util.List;
 
-import com.cpn.spring.BasicSpringBootProject.Book;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -12,6 +11,6 @@ public class BooksController {
     @GetMapping("/books")
     public List<Book> getAllBooks() {
         return Arrays.asList(
-                new Book(1l, "Simple webservice springboot", "Cassio Nunes"));
+                new Book(1l, "Simple webservice springboot 1.1", "Cassio Nunes."));
     }
 }
