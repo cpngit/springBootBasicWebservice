@@ -1,8 +1,9 @@
-package com.cpn.spring.BasicSpringBootProject;
+package com.cpn.spring.RestController;
 
 import java.util.Arrays;
 import java.util.List;
 
+import com.cpn.spring.BasicSpringBootProject.Book;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
